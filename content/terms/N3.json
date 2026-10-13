@@ -1,0 +1,37 @@
+[
+  { "id": "t-appraisal", "subtopic": "N3.1", "term": "Appraisal", "definition": "An unbiased, supported opinion of value for a specific property, as of a specific date, prepared by a licensed or certified appraiser." },
+  { "id": "t-market-value", "subtopic": "N3.1", "term": "Market value", "definition": "The most probable price a property should bring in a competitive, open market, with a typically motivated, informed buyer and seller and no undue pressure." },
+  { "id": "t-firrea", "subtopic": "N3.1", "term": "FIRREA", "definition": "The 1989 federal law requiring licensed or certified appraisers for appraisals used in federally related transactions above set thresholds." },
+  { "id": "t-uspap", "subtopic": "N3.1", "term": "USPAP", "definition": "The Uniform Standards of Professional Appraisal Practice, which govern how appraisers develop and report appraisals." },
+  { "id": "t-effective-date", "subtopic": "N3.1", "term": "Effective date of value", "definition": "The date as of which an appraisal's value opinion applies." },
+
+  { "id": "t-highest-best-use", "subtopic": "N3.2", "term": "Highest and best use", "definition": "The legally permitted, physically possible, financially feasible use that produces the greatest value." },
+  { "id": "t-substitution", "subtopic": "N3.2", "term": "Principle of substitution", "definition": "A buyer won't pay more for a property than the cost of an equally desirable substitute." },
+  { "id": "t-conformity", "subtopic": "N3.2", "term": "Principle of conformity", "definition": "Value is maximized when a property is similar in style, quality and use to surrounding properties." },
+  { "id": "t-contribution", "subtopic": "N3.2", "term": "Principle of contribution", "definition": "An improvement is worth what it adds to the property's value, not what it cost." },
+  { "id": "t-progression-regression", "subtopic": "N3.2", "term": "Progression and regression", "definition": "A modest home gains value among better homes (progression); the best home loses value among lesser homes (regression)." },
+  { "id": "t-physical-deterioration", "subtopic": "N3.2", "term": "Physical deterioration", "definition": "Loss in value from wear and tear, like a worn roof. It may be curable or incurable." },
+  { "id": "t-functional-obsolescence", "subtopic": "N3.2", "term": "Functional obsolescence", "definition": "Loss in value from outdated design or features, like a bedroom reached only through another bedroom." },
+  { "id": "t-external-obsolescence", "subtopic": "N3.2", "term": "External (economic) obsolescence", "definition": "Loss in value from factors outside the property, like a new freeway or airport noise. Always incurable by the owner." },
+
+  { "id": "t-sales-comparison", "subtopic": "N3.3", "term": "Sales comparison approach", "definition": "Estimating value by adjusting the sale prices of similar recently sold properties (comparables) for differences from the subject." },
+  { "id": "t-comparable", "subtopic": "N3.3", "term": "Comparable (comp)", "definition": "A recently sold property similar to the subject in location, size, and features." },
+  { "id": "t-subject-property", "subtopic": "N3.3", "term": "Subject property", "definition": "The property being appraised or analyzed." },
+  { "id": "t-adjustment", "subtopic": "N3.3", "term": "Adjustment", "definition": "A dollar change to a comparable's price to account for a difference from the subject. Always made to the comp, never the subject." },
+
+  { "id": "t-cost-approach", "subtopic": "N3.4", "term": "Cost approach", "definition": "Value = land value + cost to replace or reproduce the improvements − depreciation." },
+  { "id": "t-reproduction-cost", "subtopic": "N3.4", "term": "Reproduction cost", "definition": "The cost to build an exact replica of the building with the same materials and design." },
+  { "id": "t-replacement-cost", "subtopic": "N3.4", "term": "Replacement cost", "definition": "The cost to build a building with the same usefulness using current materials and methods." },
+  { "id": "t-depreciation", "subtopic": "N3.4", "term": "Depreciation (appraisal)", "definition": "Any loss in value from physical deterioration, functional obsolescence, or external obsolescence." },
+
+  { "id": "t-income-approach", "subtopic": "N3.5", "term": "Income approach", "definition": "Estimating value from the income a property produces. Value = net operating income ÷ capitalization rate." },
+  { "id": "t-noi", "subtopic": "N3.5", "term": "Net operating income (NOI)", "definition": "Effective gross income minus operating expenses. Excludes mortgage payments." },
+  { "id": "t-cap-rate", "subtopic": "N3.5", "term": "Capitalization rate", "definition": "The rate of return used to convert NOI into value: NOI ÷ value." },
+  { "id": "t-grm", "subtopic": "N3.5", "term": "Gross rent multiplier (GRM)", "definition": "Sale price divided by monthly gross rent. Used to value small residential rentals." },
+  { "id": "t-gim", "subtopic": "N3.5", "term": "Gross income multiplier (GIM)", "definition": "Sale price divided by annual gross income. Used for commercial and larger properties." },
+  { "id": "t-vacancy-loss", "subtopic": "N3.5", "term": "Vacancy and collection loss", "definition": "An allowance for income lost to vacancies and unpaid rent, subtracted from potential gross income." },
+
+  { "id": "t-cma", "subtopic": "N3.6", "term": "Comparative market analysis (CMA)", "definition": "A licensee's analysis of comparable sales, listings and expired listings to help set a list price or offer. Not an appraisal." },
+  { "id": "t-bpo", "subtopic": "N3.6", "term": "Broker price opinion (BPO)", "definition": "A licensee's estimate of a property's likely selling price, often for lenders. Not an appraisal." },
+  { "id": "t-expired-listing", "subtopic": "N3.6", "term": "Expired listing", "definition": "A listing that ended without a sale. In a CMA, it suggests prices that were too high." }
+]
