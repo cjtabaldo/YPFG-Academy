@@ -1,0 +1,42 @@
+[
+  { "id": "t-trust-account", "subtopic": "N10.1", "term": "Trust account", "definition": "A separate bank account a broker uses to hold other people's money, like earnest money and rents. Also called an escrow or client trust account." },
+  { "id": "t-commingling", "subtopic": "N10.1", "term": "Commingling", "definition": "Mixing client or customer funds with the broker's own business or personal money. Prohibited." },
+  { "id": "t-conversion", "subtopic": "N10.1", "term": "Conversion", "definition": "Using client or customer funds for the licensee's own purposes. A form of theft." },
+  { "id": "t-reconciliation", "subtopic": "N10.1", "term": "Reconciliation", "definition": "Regularly matching the trust account's bank balance to the broker's records of what is owed to each client." },
+  { "id": "t-trust-funds", "subtopic": "N10.1", "term": "Trust funds", "definition": "Money or valuables a licensee receives on behalf of others in a real estate transaction." },
+
+  { "id": "t-fair-housing-act", "subtopic": "N10.2", "term": "Fair Housing Act", "definition": "Title VIII of the Civil Rights Act of 1968, as amended. It bans housing discrimination based on race, color, religion, sex, national origin, disability, and familial status." },
+  { "id": "t-civil-rights-1866", "subtopic": "N10.2", "term": "Civil Rights Act of 1866", "definition": "A federal law that bans all racial discrimination in property transactions, with no exceptions." },
+  { "id": "t-familial-status", "subtopic": "N10.2", "term": "Familial status", "definition": "Protection for households with children under 18, pregnant people, and people getting custody of a child." },
+  { "id": "t-steering", "subtopic": "N10.2", "term": "Steering", "definition": "Channeling buyers or renters toward or away from areas based on a protected class." },
+  { "id": "t-blockbusting", "subtopic": "N10.2", "term": "Blockbusting", "definition": "Inducing owners to sell by claiming that people of a protected class are moving into the neighborhood. Also called panic peddling." },
+  { "id": "t-redlining", "subtopic": "N10.2", "term": "Redlining", "definition": "Refusing to lend or insure in certain areas based on the racial or ethnic makeup of the area rather than on borrower qualifications." },
+  { "id": "t-reasonable-modification", "subtopic": "N10.2", "term": "Reasonable modification", "definition": "A physical change to a dwelling, such as a grab bar or ramp, that a person with a disability may make, usually at their own expense." },
+  { "id": "t-reasonable-accommodation", "subtopic": "N10.2", "term": "Reasonable accommodation", "definition": "A change in rules or policies, such as allowing an assistance animal in a no-pet building, so a person with a disability can use the housing." },
+  { "id": "t-housing-older-persons", "subtopic": "N10.2", "term": "Housing for older persons", "definition": "Communities exempt from familial status rules: all residents 62+, or at least 80% of occupied units with one resident 55+ meeting HUD rules." },
+  { "id": "t-ada", "subtopic": "N10.2", "term": "Americans with Disabilities Act (ADA)", "definition": "A federal law requiring accessibility in public accommodations and commercial facilities, including real estate offices and leasing offices." },
+  { "id": "t-hud", "subtopic": "N10.2", "term": "HUD", "definition": "The U.S. Department of Housing and Urban Development, which enforces the Fair Housing Act." },
+
+  { "id": "t-blind-ad", "subtopic": "N10.3", "term": "Blind ad", "definition": "An ad that doesn't identify the brokerage or that the advertiser is a licensee. Generally prohibited." },
+  { "id": "t-bait-and-switch", "subtopic": "N10.3", "term": "Bait and switch", "definition": "Advertising a property you don't intend to sell, or that isn't available, to lure buyers toward something else." },
+  { "id": "t-do-not-call", "subtopic": "N10.3", "term": "National Do Not Call Registry", "definition": "A federal list of numbers telemarketers may not call. Sellers must check it and honor it, with limited exceptions." },
+  { "id": "t-tcpa", "subtopic": "N10.3", "term": "Telephone Consumer Protection Act (TCPA)", "definition": "A federal law restricting telemarketing calls, autodialed and prerecorded calls and texts, and unsolicited faxes." },
+  { "id": "t-can-spam", "subtopic": "N10.3", "term": "CAN-SPAM Act", "definition": "A federal law for commercial email: no misleading headers, a working opt-out, honored promptly, and a valid physical address." },
+
+  { "id": "t-sherman-act", "subtopic": "N10.4", "term": "Sherman Antitrust Act", "definition": "The federal law that bans agreements in restraint of trade, such as price fixing and boycotts." },
+  { "id": "t-price-fixing", "subtopic": "N10.4", "term": "Price fixing", "definition": "Competitors agreeing on prices or commission rates. Illegal." },
+  { "id": "t-group-boycott", "subtopic": "N10.4", "term": "Group boycott", "definition": "Competitors agreeing not to do business with a person or firm. Illegal." },
+  { "id": "t-market-allocation", "subtopic": "N10.4", "term": "Market allocation", "definition": "Competitors agreeing to divide markets by area, price range, or type of customer. Illegal." },
+  { "id": "t-tie-in", "subtopic": "N10.4", "term": "Tie-in arrangement", "definition": "Conditioning the sale of one product or service on buying another, such as requiring a buyer to list with the broker to buy a lot. Illegal." },
+
+  { "id": "t-independent-contractor", "subtopic": "N10.5", "term": "Independent contractor", "definition": "A licensee who controls how they do the work, is paid by results, and pays their own taxes. Most salespeople work this way." },
+  { "id": "t-employee", "subtopic": "N10.5", "term": "Employee", "definition": "A worker the employer controls in how the work is done, with taxes withheld and employee benefits." },
+  { "id": "t-statutory-nonemployee", "subtopic": "N10.5", "term": "Statutory nonemployee", "definition": "An IRS category for licensed real estate agents treated as non-employees for tax purposes when paid on results under a written contract that says so." },
+  { "id": "t-broker-supervision", "subtopic": "N10.5", "term": "Broker supervision", "definition": "The broker's legal responsibility to supervise the licensees and staff who work under them." },
+
+  { "id": "t-eo-insurance", "subtopic": "N10.6", "term": "Errors and omissions (E&O) insurance", "definition": "Professional liability insurance that covers licensees for negligent mistakes. It doesn't cover fraud or intentional acts." },
+  { "id": "t-wire-fraud", "subtopic": "N10.6", "term": "Wire fraud", "definition": "A scam in which criminals send fake wiring instructions, often from a hacked or spoofed email, to steal closing funds." },
+  { "id": "t-risk-management", "subtopic": "N10.6", "term": "Risk management", "definition": "Practices that reduce the chance and cost of mistakes: using forms, documenting, disclosing, staying within your expertise, and insuring." },
+  { "id": "t-record-retention", "subtopic": "N10.6", "term": "Record retention", "definition": "Keeping transaction and trust records for the time state law requires." },
+  { "id": "t-code-of-ethics", "subtopic": "N10.6", "term": "Code of Ethics", "definition": "Standards of conduct adopted by a professional association, such as REALTORS®. Different from license law, which comes from the state." }
+]

@@ -1,0 +1,223 @@
+[
+  {
+    "id": "c-N10.1-a",
+    "subtopic": "N10.1",
+    "title": "Other people's money",
+    "body": "Earnest money, rents and deposits belong to clients and customers, not the broker. They go in a separate trust account. Mixing them with the broker's own money is commingling. Using them is conversion.",
+    "example": "A Henderson broker deposits a buyer's earnest money in the trust account, never the operating account.",
+    "hook": "Their money, separate account.",
+    "terms": [
+      "t-trust-account",
+      "t-trust-funds",
+      "t-commingling",
+      "t-conversion"
+    ]
+  },
+  {
+    "id": "c-N10.1-b",
+    "subtopic": "N10.1",
+    "title": "Records and reconciliation",
+    "body": "Brokers keep records for every dollar in and out of trust, by client, and reconcile the account to the bank regularly. The broker is responsible even when staff handle the money.",
+    "example": "A Las Vegas property manager reconciles the trust account monthly and catches a misposted rent.",
+    "hook": "Every dollar has a name.",
+    "terms": [
+      "t-reconciliation"
+    ]
+  },
+  {
+    "id": "c-N10.1-c",
+    "subtopic": "N10.1",
+    "title": "When the money is disputed",
+    "body": "When buyer and seller both claim the earnest money, the broker can't decide who gets it. The funds stay in trust until the parties agree in writing or a court or authorized process decides.",
+    "example": "A Reno deal falls apart and both sides demand the deposit. The broker holds it and documents both demands.",
+    "hook": "Disputed money doesn't move on your say-so.",
+    "terms": [
+      "t-trust-account"
+    ]
+  },
+  {
+    "id": "c-N10.2-a",
+    "subtopic": "N10.2",
+    "title": "Protected classes",
+    "body": "The federal Fair Housing Act protects race, color, religion, sex, national origin, disability, and familial status. The 1866 Civil Rights Act bans all racial discrimination, with no exceptions. Nevada adds more classes.",
+    "example": "A Las Vegas landlord can't refuse families with children unless the property qualifies as housing for older persons.",
+    "hook": "Seven federal classes; race has zero exceptions.",
+    "terms": [
+      "t-fair-housing-act",
+      "t-civil-rights-1866",
+      "t-familial-status",
+      "t-hud"
+    ]
+  },
+  {
+    "id": "c-N10.2-b",
+    "subtopic": "N10.2",
+    "title": "Steering, blockbusting, redlining",
+    "body": "Steering channels people toward or away from areas based on a protected class. Blockbusting scares owners into selling by citing who's moving in. Redlining denies loans or insurance by area instead of by qualifications.",
+    "example": "A Reno agent tells a buyer, \"You'd be more comfortable in another neighborhood.\" That's steering.",
+    "hook": "Steer, scare, or redline: all illegal.",
+    "terms": [
+      "t-steering",
+      "t-blockbusting",
+      "t-redlining"
+    ]
+  },
+  {
+    "id": "c-N10.2-c",
+    "subtopic": "N10.2",
+    "title": "Disability: modifications and accommodations",
+    "body": "Tenants with disabilities may make reasonable modifications, usually at their own cost. Landlords must make reasonable accommodations in rules, like allowing an assistance animal. Exemptions never apply when a licensee is involved.",
+    "example": "A Henderson apartment with a no-pets rule must allow a tenant's assistance animal.",
+    "hook": "Modify the place. Accommodate the rules.",
+    "terms": [
+      "t-reasonable-modification",
+      "t-reasonable-accommodation",
+      "t-housing-older-persons",
+      "t-ada"
+    ]
+  },
+  {
+    "id": "c-N10.3-a",
+    "subtopic": "N10.3",
+    "title": "Truth in advertising",
+    "body": "Ads must be accurate and must not be blind: they need to show the brokerage as required. Bait and switch, advertising something unavailable to lure buyers, is deceptive. The broker supervises all advertising.",
+    "example": "A Las Vegas agent's social media post includes the brokerage name and doesn't overstate square footage.",
+    "hook": "Name the brokerage. Tell the truth.",
+    "terms": [
+      "t-blind-ad",
+      "t-bait-and-switch"
+    ]
+  },
+  {
+    "id": "c-N10.3-b",
+    "subtopic": "N10.3",
+    "title": "Calls, texts, and email",
+    "body": "Check the Do Not Call Registry before cold calling. Federal rules limit autodialed and prerecorded calls and marketing texts without consent. Marketing email must have a working opt-out and a physical address.",
+    "example": "A Reno agent scrubs a call list against the registry before a neighborhood prospecting campaign.",
+    "hook": "Check the list. Get consent. Let them opt out.",
+    "terms": [
+      "t-do-not-call",
+      "t-tcpa",
+      "t-can-spam"
+    ]
+  },
+  {
+    "id": "c-N10.3-c",
+    "subtopic": "N10.3",
+    "title": "Advertising someone else's work",
+    "body": "Only advertise listings you're authorized to market, and never present another agent's listing or sale as yours. Before and after photos, claims like \"#1 agent,\" and sold stats must be accurate and supportable.",
+    "example": "A Henderson agent shares a colleague's listing only with permission and with the listing brokerage named.",
+    "hook": "If you can't prove it, don't post it.",
+    "terms": [
+      "t-blind-ad",
+      "t-bait-and-switch"
+    ]
+  },
+  {
+    "id": "c-N10.4-a",
+    "subtopic": "N10.4",
+    "title": "Price fixing",
+    "body": "Commissions are always negotiable. Competing brokers must never agree, or even discuss among themselves, what rates to charge. That's price fixing under the Sherman Act.",
+    "example": "Two Henderson brokers at lunch start talking about \"standard\" rates. One ends the conversation.",
+    "hook": "Never talk rates with the competition.",
+    "terms": [
+      "t-sherman-act",
+      "t-price-fixing"
+    ]
+  },
+  {
+    "id": "c-N10.4-b",
+    "subtopic": "N10.4",
+    "title": "Boycotts, allocation, tie-ins",
+    "body": "Competitors may not agree to shun a firm (boycott) or divide territories or customers (market allocation). Forcing a buyer to use one service to get another is a tie-in. All are illegal.",
+    "example": "Two Las Vegas brokerages agree one takes Summerlin and the other Henderson. That's market allocation.",
+    "hook": "Don't fix, boycott, divide, or tie.",
+    "terms": [
+      "t-group-boycott",
+      "t-market-allocation",
+      "t-tie-in"
+    ]
+  },
+  {
+    "id": "c-N10.4-c",
+    "subtopic": "N10.4",
+    "title": "Stay out of antitrust trouble",
+    "body": "Set your fees on your own. Don't discuss rates with competitors, don't predict that others will refuse to work with a firm, and say \"commissions are negotiable.\" Penalties include prison, big fines, and triple damages.",
+    "example": "A Reno agent at a mixer changes the subject when a competitor asks what she charges.",
+    "hook": "Compete on value, not collusion.",
+    "terms": [
+      "t-sherman-act",
+      "t-price-fixing"
+    ]
+  },
+  {
+    "id": "c-N10.5-a",
+    "subtopic": "N10.5",
+    "title": "Independent contractor or employee",
+    "body": "Most salespeople are independent contractors: paid by results, not hours, under a written agreement, and paying their own taxes. The IRS calls them statutory nonemployees. The broker still must supervise them under license law.",
+    "example": "A Reno salesperson sets their own schedule and is paid only on closed deals.",
+    "hook": "Paid by results, not by hours.",
+    "terms": [
+      "t-independent-contractor",
+      "t-employee",
+      "t-statutory-nonemployee"
+    ]
+  },
+  {
+    "id": "c-N10.5-b",
+    "subtopic": "N10.5",
+    "title": "The broker answers for the team",
+    "body": "Brokers must supervise their licensees and staff: advertising, contracts, trust money, and conduct. Salespeople are paid only through their broker.",
+    "example": "A Las Vegas buyer pays a salesperson a cash bonus directly. That breaks the rule that all pay goes through the broker.",
+    "hook": "All pay flows through the broker.",
+    "terms": [
+      "t-broker-supervision"
+    ]
+  },
+  {
+    "id": "c-N10.5-c",
+    "subtopic": "N10.5",
+    "title": "Unlicensed assistants",
+    "body": "Assistants without a license can schedule, file, and prepare mailings. They can't show property, discuss price or terms, negotiate, or hold open houses alone. The licensee and broker answer for what they do.",
+    "example": "A Las Vegas assistant books showings and sends lockbox codes, but the licensed agent shows the homes.",
+    "hook": "No license, no negotiating.",
+    "terms": [
+      "t-broker-supervision"
+    ]
+  },
+  {
+    "id": "c-N10.6-a",
+    "subtopic": "N10.6",
+    "title": "Managing risk",
+    "body": "Use approved forms, disclose early, document everything, stay within your expertise, and carry E&O insurance. E&O covers honest mistakes, not fraud.",
+    "example": "A Henderson agent emails a summary after every phone call with a client, creating a clear record.",
+    "hook": "Write it down, and refer what you don't know.",
+    "terms": [
+      "t-risk-management",
+      "t-eo-insurance",
+      "t-record-retention"
+    ]
+  },
+  {
+    "id": "c-N10.6-b",
+    "subtopic": "N10.6",
+    "title": "Stop wire fraud",
+    "body": "Criminals send fake wiring instructions from hacked or look-alike email addresses. Warn clients early. Always verify instructions by calling a known number, never one in the email.",
+    "example": "A Reno buyer gets a \"new wiring instructions\" email the day before closing. They call the title company's known number first.",
+    "hook": "Never trust a wire email. Call a known number.",
+    "terms": [
+      "t-wire-fraud"
+    ]
+  },
+  {
+    "id": "c-N10.6-c",
+    "subtopic": "N10.6",
+    "title": "Ethics vs. license law",
+    "body": "License law is the state's legal minimum, enforced by the regulator. A professional Code of Ethics, like the REALTOR® code, is set by an association for its members and can demand more.",
+    "example": "A Nevada licensee who isn't a REALTOR® must follow Nevada law, but not the association's code.",
+    "hook": "Law is the floor. Ethics can raise the bar.",
+    "terms": [
+      "t-code-of-ethics"
+    ]
+  }
+]
