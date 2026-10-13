@@ -1,7 +1,5 @@
 // Builds supabase/seed.sql from /content. Seeding never overwrites rows that
 // already exist, so edits made in the app's editor are kept.
-// Also writes src/preview/content.json, used only by the offline Preview mode
-// (when no Supabase project is configured). Production builds never include it.
 import fs from 'node:fs';
 import path from 'node:path';
 import { loadContent, ROOT } from './content-lib.mjs';
@@ -37,10 +35,4 @@ sql += rows('verify_items', ['key', 'category', 'label', 'value', 'note', 'sort'
 sql += 'commit;\n';
 fs.writeFileSync(path.join(ROOT, 'supabase/seed.sql'), sql);
 
-const strip = (o) => Object.fromEntries(Object.entries(o).filter(([k]) => !k.startsWith('_')));
-fs.mkdirSync(path.join(ROOT, 'src/preview'), { recursive: true });
-fs.writeFileSync(path.join(ROOT, 'src/preview/content.json'), JSON.stringify({
-  outline_version: c.outline_version, topics: c.topics, subtopics: c.subtopics, units: c.units, lessons: c.lessons,
-  terms: c.terms.map(strip), cards: c.cards.map(strip), questions: c.questions.map(strip), forms: c.forms, verify: c.verify,
-}));
-console.log(`Wrote supabase/seed.sql (${(sql.length / 1024).toFixed(0)} KB) and src/preview/content.json.`);
+console.log(`Wrote supabase/seed.sql (${(sql.length / 1024).toFixed(0)} KB).`);

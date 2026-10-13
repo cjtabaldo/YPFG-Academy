@@ -5,4 +5,3 @@ dev-dist
 .env.local
 test-results
 playwright-report
-src/preview/content.json
