@@ -1,0 +1,10 @@
+<!-- Supabase > Authentication > Emails > Templates > "Reset password"
+     Subject: Reset your YPFG Academy password -->
+<div style="font-family:Inter,Arial,sans-serif;max-width:480px;margin:0 auto;color:#000">
+  <p style="font-family:Outfit,Arial,sans-serif;font-weight:700;font-size:20px;background:#000;color:#fff;display:inline-block;padding:4px 8px;margin:0 0 24px">ypfg academy</p>
+  <h1 style="font-family:Outfit,Arial,sans-serif;font-size:28px;margin:0 0 12px">Reset your password</h1>
+  <p style="font-size:16px;line-height:1.5">Someone asked to reset the password for this email. If that was you, tap below and choose a new one.</p>
+  <p><a href="{{ .SiteURL }}/set-password?mode=reset&token_hash={{ .TokenHash }}&type=recovery" style="display:inline-block;background:#000;color:#fff;text-decoration:none;font-weight:700;padding:14px 22px;border-radius:10px">Choose a new password</a></p>
+  <p style="font-size:13px;color:#5f5f5f">This link works once and expires in one hour.</p>
+  <p style="font-size:12px;color:#5f5f5f;margin-top:32px">Didn't ask for this? Ignore this email. Your password stays the same.</p>
+</div>

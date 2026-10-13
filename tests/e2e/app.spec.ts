@@ -177,3 +177,28 @@ test('"New version available. Tap to update." appears after a new version is pub
   await expect(page.getByRole('navigation', { name: 'Main' })).toBeVisible({ timeout: 20000 });
   await expect(page.getByText('New version available. Tap to update.')).toHaveCount(0);
 });
+
+test('password reset link from the email template opens "Choose a new password" and works', async ({ page }) => {
+  await makeUser('resetme@test.dev', 'student'); onboarded('resetme@test.dev');
+  // @ts-expect-error plain JS helper
+  const { service } = await import('../backend/helpers.mjs');
+  const { data } = await service().auth.admin.generateLink({ type: 'recovery', email: 'resetme@test.dev' });
+  await page.goto(`/set-password?mode=reset&token_hash=${data.properties.hashed_token}&type=recovery`);
+  await expect(page.getByRole('heading', { name: 'Choose a new password' })).toBeVisible({ timeout: 15000 });
+  await page.getByLabel('New password').fill('Fresh-pass-2026');
+  await page.getByLabel('Type it again').fill('Fresh-pass-2026');
+  await page.getByRole('button', { name: 'Save new password' }).click();
+  await expect(page.getByRole('navigation', { name: 'Main' })).toBeVisible({ timeout: 15000 });
+  await page.getByRole('link', { name: 'Settings', exact: true }).click();
+  await page.getByRole('button', { name: 'Sign out' }).click();
+  await expect(page.getByRole('heading', { name: 'Sign in' })).toBeVisible({ timeout: 15000 });
+  await page.getByLabel('Email').fill('resetme@test.dev');
+  await page.getByLabel('Password').fill('Fresh-pass-2026');
+  await page.getByRole('button', { name: 'Sign in' }).click();
+  await expect(page.getByRole('navigation', { name: 'Main' })).toBeVisible({ timeout: 15000 });
+});
+
+test('an expired or reused email link shows a clear message', async ({ page }) => {
+  await page.goto('/set-password?mode=invite&token_hash=not-a-real-token&type=invite');
+  await expect(page.getByRole('heading', { name: 'That link has expired' })).toBeVisible({ timeout: 15000 });
+});

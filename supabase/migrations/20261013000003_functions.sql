@@ -498,7 +498,9 @@ begin
     select coalesce(jsonb_agg(jsonb_build_object(
       'id', s.id, 'title', s.title, 'topic_id', t.id, 'topic', t.title, 'portion', t.portion,
       'items', t.items, 'items_verified', t.items_verified,
-      'cc_target', s.cc_target, 'lp_target', s.lp_target,
+      -- Targets follow the official item counts once entered (Admin > Outline).
+      'cc_target', case when t.items >= 8 then greatest(s.cc_target, 3) when t.items > 0 then 2 else s.cc_target end,
+      'lp_target', case when t.items > 0 then ceil(greatest(10 * n.cnt, 8 * t.items)::numeric / n.cnt)::int else s.lp_target end,
       'cc_verified', (select count(*) from public.concept_cards c where c.subtopic_id = s.id and c.status = 'verified'),
       'cc_total', (select count(*) from public.concept_cards c where c.subtopic_id = s.id and c.status <> 'rejected'),
       'lp_verified', (select count(*) from public.questions q where q.subtopic_id = s.id and q.pool = 'lesson' and q.status = 'verified'),
@@ -508,7 +510,8 @@ begin
       'terms_verified', (select count(*) from public.terms m where m.subtopic_id = s.id and m.status = 'verified'),
       'verify_note', s.verify_note
     ) order by t.sort, s.sort), '[]'::jsonb)
-    from public.outline_subtopics s join public.outline_topics t on t.id = s.topic_id);
+    from public.outline_subtopics s join public.outline_topics t on t.id = s.topic_id
+    cross join lateral (select greatest(count(*), 1) as cnt from public.outline_subtopics x where x.topic_id = t.id) n);
 end $$;
 
 -- ---------------------------------------------------------------------------
