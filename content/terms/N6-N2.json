@@ -1,0 +1,51 @@
+[
+  { "id": "t-home-inspection", "subtopic": "N6.1", "term": "Home inspection", "definition": "A visual examination of a home's systems and condition by a qualified inspector, usually ordered by the buyer." },
+  { "id": "t-pre-listing-inspection", "subtopic": "N6.1", "term": "Pre-listing inspection", "definition": "An inspection a seller orders before listing to find problems early. Anything found becomes known to the seller and must be disclosed." },
+  { "id": "t-final-walkthrough", "subtopic": "N6.1", "term": "Final walk-through", "definition": "The buyer's last look at the property before closing to confirm its condition and agreed repairs." },
+  { "id": "t-as-is", "subtopic": "N6.1", "term": "As is", "definition": "A sale where the seller won't make repairs. It doesn't excuse hiding known defects." },
+
+  { "id": "t-lead-based-paint", "subtopic": "N6.2", "term": "Lead-based paint disclosure", "definition": "A federal rule for housing built before 1978: sellers and landlords must disclose known lead hazards, give the EPA pamphlet, and buyers get a 10-day chance to test." },
+  { "id": "t-radon", "subtopic": "N6.2", "term": "Radon", "definition": "A colorless, odorless radioactive gas from the natural decay of uranium in soil. A leading cause of lung cancer. Detected by testing." },
+  { "id": "t-asbestos", "subtopic": "N6.2", "term": "Asbestos", "definition": "A mineral fiber once used in insulation, flooring and siding. Dangerous when friable (crumbling) and its fibers are inhaled." },
+  { "id": "t-encapsulation", "subtopic": "N6.2", "term": "Encapsulation", "definition": "Sealing hazardous material, like asbestos, in place instead of removing it." },
+  { "id": "t-mold", "subtopic": "N6.2", "term": "Mold", "definition": "Fungal growth caused by moisture. Can cause health problems and signals a water issue." },
+  { "id": "t-ust", "subtopic": "N6.2", "term": "Underground storage tank (UST)", "definition": "A buried tank for fuel or chemicals. Leaks can contaminate soil and groundwater." },
+  { "id": "t-ufft", "subtopic": "N6.2", "term": "Urea-formaldehyde", "definition": "A chemical once used in foam insulation and some building products that can release irritating gas." },
+  { "id": "t-carbon-monoxide", "subtopic": "N6.2", "term": "Carbon monoxide", "definition": "A colorless, odorless gas from incomplete burning of fuel, from faulty furnaces or water heaters. Detectors warn of it." },
+
+  { "id": "t-stigmatized-property", "subtopic": "N6.3", "term": "Stigmatized property", "definition": "A property with a non-physical issue, like a death or crime, that may affect buyers' feelings. Disclosure rules vary by state." },
+  { "id": "t-seller-disclosure", "subtopic": "N6.3", "term": "Seller's property disclosure", "definition": "A form, required in many states, where the seller reports known conditions of the property." },
+  { "id": "t-red-flag", "subtopic": "N6.3", "term": "Red flag", "definition": "Something a licensee notices, like a water stain or crack, that suggests a possible problem and should be disclosed and investigated." },
+
+  { "id": "t-police-power", "subtopic": "N2.1", "term": "Police power", "definition": "Government's power to regulate property to protect public health, safety and welfare, through zoning, building codes and similar rules. No compensation is owed." },
+  { "id": "t-eminent-domain", "subtopic": "N2.1", "term": "Eminent domain", "definition": "Government's power to take private property for public use, with just compensation." },
+  { "id": "t-condemnation", "subtopic": "N2.1", "term": "Condemnation", "definition": "The legal process the government uses to exercise eminent domain." },
+  { "id": "t-taxation", "subtopic": "N2.1", "term": "Taxation", "definition": "Government's power to tax property. Unpaid taxes become a lien." },
+  { "id": "t-special-assessment", "subtopic": "N2.1", "term": "Special assessment", "definition": "A tax on properties that benefit from a specific public improvement, like new sidewalks." },
+  { "id": "t-escheat", "subtopic": "N2.1", "term": "Escheat", "definition": "Property passing to the state when an owner dies with no will and no heirs." },
+  { "id": "t-ad-valorem", "subtopic": "N2.1", "term": "Ad valorem tax", "definition": "A tax based on value, like property tax." },
+  { "id": "t-inverse-condemnation", "subtopic": "N2.1", "term": "Inverse condemnation", "definition": "An owner's lawsuit to force the government to pay when its action has effectively taken the property's value." },
+
+  { "id": "t-master-plan", "subtopic": "N2.2", "term": "Master plan", "definition": "A community's long-range plan for land use, growth and services. Zoning carries it out." },
+  { "id": "t-zoning", "subtopic": "N2.2", "term": "Zoning ordinance", "definition": "Local laws dividing land into zones and setting permitted uses, density, heights and setbacks." },
+  { "id": "t-variance", "subtopic": "N2.2", "term": "Variance", "definition": "Permission to deviate from zoning requirements, like a setback, because strict compliance causes hardship." },
+  { "id": "t-nonconforming-use", "subtopic": "N2.2", "term": "Nonconforming use", "definition": "A use that was legal before a zoning change and may continue, often with limits. Also called grandfathered." },
+  { "id": "t-conditional-use", "subtopic": "N2.2", "term": "Conditional use permit", "definition": "Permission for a use allowed in a zone only with approval and conditions, like a church in a residential zone." },
+  { "id": "t-spot-zoning", "subtopic": "N2.2", "term": "Spot zoning", "definition": "Rezoning a single parcel differently from its surroundings for one owner's benefit. Often invalid." },
+  { "id": "t-building-code", "subtopic": "N2.2", "term": "Building code", "definition": "Construction standards for safety and quality, enforced through permits and inspections." },
+  { "id": "t-certificate-occupancy", "subtopic": "N2.2", "term": "Certificate of occupancy", "definition": "A local government document stating a building complies with codes and may be occupied." },
+  { "id": "t-setback", "subtopic": "N2.2", "term": "Setback", "definition": "The minimum distance a building must be from property lines." },
+  { "id": "t-buffer-zone", "subtopic": "N2.2", "term": "Buffer zone", "definition": "Land, like a park, separating incompatible uses, such as industrial and residential." },
+
+  { "id": "t-cercla", "subtopic": "N2.3", "term": "CERCLA (Superfund)", "definition": "Federal law on cleaning up hazardous waste sites. Current and past owners can be liable for cleanup, even if they didn't cause the contamination." },
+  { "id": "t-phase-i", "subtopic": "N2.3", "term": "Phase I environmental site assessment", "definition": "A review of a property's history and records for likely contamination, used to support the innocent landowner defense." },
+  { "id": "t-wetlands", "subtopic": "N2.3", "term": "Wetlands", "definition": "Land saturated with water for part of the year. Filling them generally requires a federal permit under the Clean Water Act." },
+  { "id": "t-flood-zone", "subtopic": "N2.3", "term": "Special Flood Hazard Area", "definition": "An area FEMA maps as having a 1% annual chance of flooding. Federally backed loans there require flood insurance." },
+
+  { "id": "t-ccrs", "subtopic": "N2.4", "term": "CC&Rs", "definition": "Covenants, conditions and restrictions: private rules recorded for a subdivision or community." },
+  { "id": "t-deed-restriction", "subtopic": "N2.4", "term": "Deed restriction", "definition": "A private limit on use written in a deed, like a height limit." },
+  { "id": "t-covenant", "subtopic": "N2.4", "term": "Restrictive covenant", "definition": "A private promise limiting use. Breaking it is usually remedied by an injunction or damages." },
+  { "id": "t-condition-subsequent", "subtopic": "N2.4", "term": "Condition (in a deed)", "definition": "A restriction whose violation can cause the owner to lose title. A harsher remedy than a covenant." },
+  { "id": "t-injunction", "subtopic": "N2.4", "term": "Injunction", "definition": "A court order requiring someone to stop doing something, like violating a deed restriction." },
+  { "id": "t-hoa", "subtopic": "N2.4", "term": "Homeowners association (HOA)", "definition": "An association of owners that enforces CC&Rs, maintains common areas, and collects assessments." }
+]
