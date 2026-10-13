@@ -1,4 +1,5 @@
-import { useState, type FormEvent } from 'react';
+import { useEffect, useState, type FormEvent } from 'react';
+import { SUPABASE_ANON_KEY, SUPABASE_URL } from '../../config/env';
 import { BRAND } from '../../config/brand';
 import { auth, friendly } from '../../lib/api';
 import { ErrorText, Wordmark } from '../../ui/common';
@@ -114,6 +115,24 @@ export function AccessRemoved({ onSignOut }: { onSignOut: () => void }) {
         <h2>Your access has been turned off</h2>
         <p style={{ margin: 0 }}>Your account is paused. If you think this is a mistake, contact the person who invited you.</p>
         <button className="btn block" onClick={onSignOut}>Sign out</button>
+      </div>
+    </Shell>
+  );
+}
+
+export function Unsubscribe({ token }: { token: string }) {
+  const [state, setState] = useState<'working' | 'done' | 'error'>('working');
+  useEffect(() => {
+    fetch(`${SUPABASE_URL}/functions/v1/unsubscribe`, { method: 'POST', headers: { 'Content-Type': 'application/json', apikey: SUPABASE_ANON_KEY ?? '' }, body: JSON.stringify({ token }) })
+      .then((r) => setState(r.ok ? 'done' : 'error')).catch(() => setState('error'));
+  }, [token]);
+  return (
+    <Shell>
+      <div className="card stack">
+        {state === 'working' && <p style={{ margin: 0 }}>Unsubscribing…</p>}
+        {state === 'done' && <><h2>You're unsubscribed.</h2><p style={{ margin: 0 }}>No more streak-saver emails. You can turn them back on anytime in Settings.</p></>}
+        {state === 'error' && <><h2>That link didn't work</h2><p style={{ margin: 0 }}>It may be incomplete. You can turn off streak-saver emails in Settings, under Reminders.</p></>}
+        <button className="btn block" onClick={() => navigate('/', { replace: true })}>Open YPFG Academy</button>
       </div>
     </Shell>
   );

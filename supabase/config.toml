@@ -1,0 +1,15 @@
+# Settings used if you deploy with the Supabase command-line tool.
+# (The setup guide uses the dashboard instead; see docs/SETUP.md.)
+project_id = "ypfg-academy"
+
+[auth]
+enable_signup = false
+
+[functions.admin-users]
+verify_jwt = true
+
+[functions.streak-saver]
+verify_jwt = false
+
+[functions.unsubscribe]
+verify_jwt = false

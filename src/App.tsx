@@ -1,19 +1,20 @@
-import { useEffect, useState } from 'react';
+import { Suspense, lazy, useEffect, useState } from 'react';
 import { useRegisterSW } from 'virtual:pwa-register/react';
 import { CONFIGURED } from './config/env';
 import { auth, friendly } from './lib/api';
 import { useStore } from './state/store';
-import { AccessRemoved, LinkExpired, NotConfigured, SetPassword, SignIn } from './screens/auth/Auth';
+import { AccessRemoved, LinkExpired, NotConfigured, SetPassword, SignIn, Unsubscribe } from './screens/auth/Auth';
 import { Onboarding } from './screens/onboarding/Onboarding';
 import { Home } from './screens/student/Home';
 import { LessonScreen, PlacementScreen, PracticeScreen } from './screens/student/Study';
 import { RoadmapScreen } from './screens/student/Roadmap';
 import { Glossary, Leaderboard, Settings, Stats } from './screens/student/More';
 import { ExamHome, ExamResults, ExamRunner } from './screens/exam/Exam';
-import { AdminRoutes } from './screens/admin/Admin';
 import { Loading, ToastHost, Wordmark } from './ui/common';
 import * as I from './ui/icons';
 import { Link, match, navigate, useLocation } from './ui/router';
+
+const AdminRoutes = lazy(() => import('./screens/admin/Admin').then((m) => ({ default: m.AdminRoutes })));
 
 // Read auth hints before the Supabase client clears the URL.
 const initialHash = new URLSearchParams(location.hash.slice(1));
@@ -28,7 +29,12 @@ function UpdatePrompt() {
   return (
     <div className="toast" role="alert" style={{ bottom: 'calc(5.5rem + env(safe-area-inset-bottom))' }}>
       <span>New version available. Tap to update.</span>
-      <button onClick={() => updateServiceWorker(true)}>Update</button>
+      <button onClick={() => {
+        // Reload as soon as the new version takes over (with a fallback).
+        navigator.serviceWorker?.addEventListener('controllerchange', () => location.reload(), { once: true });
+        setTimeout(() => location.reload(), 4000);
+        updateServiceWorker(true);
+      }}>Update</button>
     </div>
   );
 }
@@ -107,6 +113,7 @@ export default function App() {
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   if (!CONFIGURED) return <NotConfigured />;
+  if (path === '/unsubscribe') return <Unsubscribe token={query.get('token') ?? ''} />;
   if (linkError || verifyErr) return <LinkExpired />;
   if (verifying) return <Loading />;
   if (!store.session) return store.ready ? <><SignIn /><UpdatePrompt /><ToastHost /></> : <Loading />;
@@ -132,7 +139,7 @@ export default function App() {
   else if (path === '/leaderboard') screen = <Leaderboard />;
   else if (path === '/stats') screen = <Stats />;
   else if (path === '/settings') screen = <Settings />;
-  else if (path.startsWith('/admin')) screen = store.isStaff ? <AdminRoutes path={path} /> : <NotFound />;
+  else if (path.startsWith('/admin')) screen = store.isStaff ? <Suspense fallback={<main className="page"><p className="muted">Loading…</p></main>}><AdminRoutes path={path} /></Suspense> : <NotFound />;
   else if (path === '/' || path === '/index.html') screen = <Home />;
   else screen = <NotFound />;
 

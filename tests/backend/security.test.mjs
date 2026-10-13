@@ -77,9 +77,11 @@ test('students cannot write content', async () => {
 });
 
 test('editing a question creates a new version and sends it back to review', async () => {
-  await reviewer.from('questions').update({ prompt: 'Which of these is most likely real property when a home is sold?' }).eq('id', 'N1.1-01');
-  assert.equal(sql(`select version || '|' || status from questions where id = 'N1.1-01'`), '2|unverified');
-  assert.equal(sql(`select count(*) from question_versions where question_id = 'N1.1-01'`), '1');
+  const v0 = Number(sql(`select version from questions where id = 'N1.1-01'`));
+  const h0 = Number(sql(`select count(*) from question_versions where question_id = 'N1.1-01'`));
+  await reviewer.from('questions').update({ prompt: `Which of these is most likely real property when a home is sold? (${Date.now()})` }).eq('id', 'N1.1-01');
+  assert.equal(sql(`select version || '|' || status from questions where id = 'N1.1-01'`), `${v0 + 1}|unverified`);
+  assert.equal(Number(sql(`select count(*) from question_versions where question_id = 'N1.1-01'`)), h0 + 1);
   const r = await reviewer.from('questions').update({ pool: 'exam' }).eq('id', 'N1.1-02');
   assert.ok(r.error, 'pool cannot change');
 });

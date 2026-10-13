@@ -4,6 +4,9 @@ import http from 'node:http';
 const routes = [
   ['/auth/v1', 9999],
   ['/rest/v1', 3000],
+  ['/functions/v1/admin-users', 8001],
+  ['/functions/v1/streak-saver', 8002],
+  ['/functions/v1/unsubscribe', 8003],
 ];
 const cors = {
   'access-control-allow-origin': '*',
@@ -16,7 +19,8 @@ http.createServer((req, res) => {
   if (req.method === 'OPTIONS') { res.writeHead(204, cors); return res.end(); }
   const match = routes.find(([p]) => req.url.startsWith(p));
   if (!match) { res.writeHead(404, cors); return res.end('not found'); }
-  const path = req.url.slice(match[0].length) || '/';
+  let path = req.url.slice(match[0].length) || '/';
+  if (!path.startsWith('/')) path = '/' + path;
   const up = http.request({ host: '127.0.0.1', port: match[1], path, method: req.method, headers: { ...req.headers, host: `127.0.0.1:${match[1]}` } }, (r) => {
     res.writeHead(r.statusCode, { ...r.headers, ...cors });
     r.pipe(res);

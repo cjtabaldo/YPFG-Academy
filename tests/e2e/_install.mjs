@@ -1,0 +1,11 @@
+import { chromium } from '@playwright/test';
+const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium' });
+const page = await browser.newPage();
+await page.goto('http://localhost:4173/');
+await page.waitForFunction(async () => !!(await navigator.serviceWorker.getRegistration())?.active, null, { timeout: 20000 });
+const cdp = await page.context().newCDPSession(page);
+const r = await cdp.send('Page.getInstallabilityErrors');
+console.log('installability errors:', JSON.stringify(r.installabilityErrors));
+const m = await cdp.send('Page.getAppManifest');
+console.log('manifest errors:', JSON.stringify(m.errors));
+await browser.close();
