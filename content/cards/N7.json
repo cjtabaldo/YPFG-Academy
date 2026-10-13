@@ -1,0 +1,235 @@
+[
+  {
+    "id": "c-N7.1-a",
+    "subtopic": "N7.1",
+    "title": "What makes a contract valid",
+    "body": "A valid contract needs competent parties, offer and acceptance, consideration, and a legal purpose. A contract to sell real estate must also be in writing and signed to be enforceable.",
+    "example": "A Henderson buyer's purchase agreement is signed by two adults, trades money for a deed, and is for a lawful sale.",
+    "hook": "COAL: Competent, Offer and acceptance, consideration (A deal), Legal.",
+    "terms": [
+      "t-contract",
+      "t-essential-elements",
+      "t-consideration",
+      "t-statute-of-frauds"
+    ]
+  },
+  {
+    "id": "c-N7.1-b",
+    "subtopic": "N7.1",
+    "title": "Void, voidable, unenforceable",
+    "body": "Void means it never had legal effect, like a contract for an illegal purpose. Voidable is valid until the protected party cancels, like a minor's contract. Unenforceable looks valid but a court won't enforce it, like an oral land sale.",
+    "example": "A 17-year-old in Reno signs a purchase agreement. The minor may cancel it. The seller may not.",
+    "hook": "Void is nothing. Voidable is someone's choice.",
+    "terms": [
+      "t-void",
+      "t-voidable",
+      "t-unenforceable"
+    ]
+  },
+  {
+    "id": "c-N7.1-c",
+    "subtopic": "N7.1",
+    "title": "Kinds of contracts",
+    "body": "Express contracts are stated in words; implied ones come from conduct. Bilateral means a promise for a promise. Unilateral means a promise for an act. Executory means not yet fully performed; executed means fully performed.",
+    "example": "A Las Vegas purchase agreement is bilateral and executory until closing. After closing, it's executed.",
+    "hook": "Bi means both promise. Uni means one promises.",
+    "terms": [
+      "t-bilateral",
+      "t-unilateral",
+      "t-executory",
+      "t-executed",
+      "t-express-contract",
+      "t-implied-contract"
+    ]
+  },
+  {
+    "id": "c-N7.2-a",
+    "subtopic": "N7.2",
+    "title": "Assignment vs. novation",
+    "body": "Assignment transfers your rights to someone else, but you usually stay liable. Novation replaces the contract or a party with a new one and releases the original party.",
+    "example": "A Reno buyer assigns a purchase contract to an investor. If the investor fails to close, the original buyer may still be on the hook.",
+    "hook": "Assign and you still sign for it. Novation sets you free.",
+    "terms": [
+      "t-assignment",
+      "t-novation"
+    ]
+  },
+  {
+    "id": "c-N7.2-b",
+    "subtopic": "N7.2",
+    "title": "Remedies for breach",
+    "body": "When a party breaches, the other may sue for damages, ask a court for specific performance, or rescind. Because every parcel is unique, buyers can often get specific performance. Liquidated damages are set in advance, often the earnest money.",
+    "example": "A Henderson seller backs out to take a higher offer. The buyer asks the court to order the sale.",
+    "hook": "Land is unique, so courts can make you sell.",
+    "terms": [
+      "t-breach",
+      "t-specific-performance",
+      "t-compensatory-damages",
+      "t-liquidated-damages",
+      "t-rescission"
+    ]
+  },
+  {
+    "id": "c-N7.2-c",
+    "subtopic": "N7.2",
+    "title": "Ending a contract",
+    "body": "Contracts end by full performance, mutual agreement, impossibility, operation of law, or breach. A \"time is of the essence\" clause makes every deadline strict. The statute of limitations limits how long someone has to sue.",
+    "example": "A Las Vegas contract says closing by June 30 and time is of the essence. Closing July 2 is a breach.",
+    "hook": "When time is of the essence, late is broken.",
+    "terms": [
+      "t-time-of-essence",
+      "t-statute-of-limitations"
+    ]
+  },
+  {
+    "id": "c-N7.3-a",
+    "subtopic": "N7.3",
+    "title": "Three kinds of listings",
+    "body": "Exclusive right to sell: the broker gets paid no matter who sells. Exclusive agency: the broker gets paid unless the owner finds the buyer alone. Open listing: many brokers, and only the procuring cause gets paid.",
+    "example": "A Summerlin owner on an exclusive right to sell finds a buyer at church. The broker is still owed a commission.",
+    "hook": "Right to sell means the right to be paid.",
+    "terms": [
+      "t-listing-agreement",
+      "t-exclusive-right-to-sell",
+      "t-exclusive-agency",
+      "t-open-listing",
+      "t-procuring-cause"
+    ]
+  },
+  {
+    "id": "c-N7.3-b",
+    "subtopic": "N7.3",
+    "title": "Net listings and protection clauses",
+    "body": "In a net listing, the broker keeps everything above the seller's number. That creates a conflict of interest, so many states ban or discourage it. A protection clause pays the broker if a buyer they introduced buys soon after the listing expires.",
+    "example": "A Reno buyer toured with the listing agent, waited until the listing expired, then bought direct. The protection clause applies.",
+    "hook": "Net listing: the agent's gain is the seller's pain.",
+    "terms": [
+      "t-net-listing",
+      "t-protection-clause",
+      "t-mls"
+    ]
+  },
+  {
+    "id": "c-N7.3-c",
+    "subtopic": "N7.3",
+    "title": "How listings end",
+    "body": "A listing is a personal service contract. It ends when it is performed, when it expires, by mutual agreement, or by operation of law, such as the death or incapacity of either party, bankruptcy, or destruction of the property.",
+    "example": "A Henderson seller dies two weeks into a listing. The listing ends, and the estate must sign a new one.",
+    "hook": "Personal contract: if a person goes, the listing goes.",
+    "terms": [
+      "t-listing-agreement"
+    ]
+  },
+  {
+    "id": "c-N7.4-a",
+    "subtopic": "N7.4",
+    "title": "Representing buyers in writing",
+    "body": "A buyer agency agreement creates the agency relationship and spells out the broker's duties, the term, and how the broker is paid. Exclusive means one broker; nonexclusive lets the buyer use others.",
+    "example": "A first-time buyer in Las Vegas signs a 90-day exclusive buyer agreement before touring homes.",
+    "hook": "Put the buyer's relationship on paper before the first door opens.",
+    "terms": [
+      "t-buyer-agency-agreement",
+      "t-exclusive-buyer-agency",
+      "t-nonexclusive-buyer"
+    ]
+  },
+  {
+    "id": "c-N7.4-b",
+    "subtopic": "N7.4",
+    "title": "Compensation and tenants",
+    "body": "The buyer agreement states what the broker will be paid and who pays it. If a seller offers less, the buyer may owe the difference. Tenants can sign representation agreements too.",
+    "example": "A Reno renter hires a broker under a tenant representation agreement to find an office lease.",
+    "hook": "Who pays, how much, and when: write it down.",
+    "terms": [
+      "t-tenant-rep"
+    ]
+  },
+  {
+    "id": "c-N7.4-c",
+    "subtopic": "N7.4",
+    "title": "Ending a buyer agreement",
+    "body": "Buyer agreements end like listings: when the buyer purchases, when the term expires, by mutual agreement, or by operation of law. A protection period can still pay the broker for homes shown during the term.",
+    "example": "A Henderson buyer's agreement expires, and three weeks later they buy a home their agent showed them. The protection period applies.",
+    "hook": "Every agreement has an exit, and a protection period.",
+    "terms": [
+      "t-buyer-agency-agreement",
+      "t-exclusive-buyer-agency"
+    ]
+  },
+  {
+    "id": "c-N7.5-a",
+    "subtopic": "N7.5",
+    "title": "Offer, acceptance, counteroffer",
+    "body": "An offer becomes a contract when the offeree accepts every term and the acceptance is communicated. Changing any term is a counteroffer, which kills the original offer. An offer can be withdrawn any time before acceptance is communicated.",
+    "example": "A Henderson seller accepts the price but changes closing from 30 to 45 days. That's a counteroffer.",
+    "hook": "Change anything, and you've rejected everything.",
+    "terms": [
+      "t-offer",
+      "t-acceptance",
+      "t-counteroffer",
+      "t-offeror",
+      "t-offeree"
+    ]
+  },
+  {
+    "id": "c-N7.5-b",
+    "subtopic": "N7.5",
+    "title": "Earnest money and contingencies",
+    "body": "Earnest money shows good faith and is held in trust. Contingencies, like financing, inspection, or appraisal, let a party exit or renegotiate if a condition isn't met. Once signed, the buyer holds equitable title.",
+    "example": "A Las Vegas buyer's loan is denied. The financing contingency lets them cancel and get their deposit back.",
+    "hook": "Contingency: if this, then that.",
+    "terms": [
+      "t-earnest-money",
+      "t-contingency",
+      "t-equitable-title"
+    ]
+  },
+  {
+    "id": "c-N7.5-c",
+    "subtopic": "N7.5",
+    "title": "Multiple offers",
+    "body": "Agents present every written offer to the seller promptly. The seller decides: accept one, counter one, or reject them all. A seller who sends counteroffers to several buyers at once risks two acceptances.",
+    "example": "Three offers arrive on a Reno home on Saturday. The listing agent presents all three that day.",
+    "hook": "Present every offer. The seller picks.",
+    "terms": [
+      "t-offer"
+    ]
+  },
+  {
+    "id": "c-N7.6-a",
+    "subtopic": "N7.6",
+    "title": "Options",
+    "body": "In an option, the owner (optionor) is bound to sell on set terms if the optionee chooses to buy within the option period. The optionee pays consideration for that right and is never obligated to buy.",
+    "example": "A developer pays a Carson City owner $5,000 for a one-year option to buy 10 acres.",
+    "hook": "The optionee has the option. The optionor is bound.",
+    "terms": [
+      "t-option",
+      "t-optionor",
+      "t-optionee"
+    ]
+  },
+  {
+    "id": "c-N7.6-b",
+    "subtopic": "N7.6",
+    "title": "Right of first refusal",
+    "body": "A right of first refusal doesn't set a price. It gives the holder the chance to match a real offer before the owner accepts it. If the holder passes, the owner may sell to the other buyer.",
+    "example": "A Las Vegas tenant's lease includes a right of first refusal. When an investor offers $410,000, the tenant may match it.",
+    "hook": "First refusal: match it or lose it.",
+    "terms": [
+      "t-right-of-first-refusal"
+    ]
+  },
+  {
+    "id": "c-N7.6-c",
+    "subtopic": "N7.6",
+    "title": "Land contracts",
+    "body": "In a land contract, the seller finances the sale. The buyer (vendee) moves in and pays installments but holds only equitable title. The seller (vendor) keeps legal title until the contract is paid off.",
+    "example": "A buyer in rural Elko County buys on a land contract and gets the deed after the final payment.",
+    "hook": "Pay it all, then the deed falls.",
+    "terms": [
+      "t-land-contract",
+      "t-vendor-vendee",
+      "t-equitable-title"
+    ]
+  }
+]
