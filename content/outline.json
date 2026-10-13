@@ -1,0 +1,150 @@
+{
+  "outline_version": "Content Outlines 01/15/2025 (#092901) [verify]",
+  "note": "Draft reconstruction. Item counts are [verify] until checked against the Pearson VUE Nevada Candidate Handbook and Content Outlines.",
+  "topics": [
+    { "id": "N1", "portion": "national", "title": "Property ownership", "items": 8, "course": "PRIN", "subtopics": [
+      ["N1.1", "Real vs. personal property; fixtures, trade fixtures, emblements"],
+      ["N1.2", "Land characteristics and legal descriptions"],
+      ["N1.3", "Encumbrances: liens, easements, licenses, encroachments"],
+      ["N1.4", "Estates in land: freehold and leasehold"],
+      ["N1.5", "Forms of ownership: severalty, co-ownership, business entities, trusts"],
+      ["N1.6", "Condominiums, cooperatives, PUDs, timeshares"] ] },
+    { "id": "N2", "portion": "national", "title": "Land use controls and regulations", "items": 5, "course": "PRIN", "subtopics": [
+      ["N2.1", "Government rights: taxation, special assessments, eminent domain, police power, escheat"],
+      ["N2.2", "Public controls: zoning, master plans, variances, nonconforming use, building codes, subdivision rules"],
+      ["N2.3", "Environmental and special-land regulation: wetlands, flood zones, CERCLA"],
+      ["N2.4", "Private controls: CC&Rs, deed restrictions, HOAs"] ] },
+    { "id": "N3", "portion": "national", "title": "Valuation and market analysis", "items": 7, "course": "PRIN", "subtopics": [
+      ["N3.1", "Appraisal purpose, process, and when a licensed or certified appraiser is required"],
+      ["N3.2", "Value concepts and economic principles"],
+      ["N3.3", "Sales comparison approach and adjustments"],
+      ["N3.4", "Cost approach"],
+      ["N3.5", "Income approach: cap rate, GRM/GIM"],
+      ["N3.6", "CMA and BPO vs. appraisal"] ] },
+    { "id": "N4", "portion": "national", "title": "Financing", "items": 8, "course": "PRIN", "subtopics": [
+      ["N4.1", "Core concepts: LTV, points, PMI/MIP, equity"],
+      ["N4.2", "Loan types"],
+      ["N4.3", "Instruments and clauses"],
+      ["N4.4", "Lending process and the secondary market"],
+      ["N4.5", "Lending laws: TILA/Reg Z, RESPA, TRID, ECOA, fraud and predatory lending"] ] },
+    { "id": "N5", "portion": "national", "title": "General principles of agency", "items": 11, "course": "AGY", "subtopics": [
+      ["N5.1", "Agency vs. non-agency relationships and types of agency"],
+      ["N5.2", "Creating and ending agency"],
+      ["N5.3", "Fiduciary duties to clients"],
+      ["N5.4", "Duties to customers and third parties; misrepresentation and fraud"],
+      ["N5.5", "Agency disclosure and conflicts of interest"] ] },
+    { "id": "N6", "portion": "national", "title": "Property condition and disclosures", "items": 6, "course": "LAW", "subtopics": [
+      ["N6.1", "Property inspections and the licensee's role"],
+      ["N6.2", "Environmental hazards"],
+      ["N6.3", "Material facts, latent defects, stigmatized property, disclosure duties"] ] },
+    { "id": "N7", "portion": "national", "title": "Contracts", "items": 12, "course": "CON", "subtopics": [
+      ["N7.1", "Contract law: elements, validity, statute of frauds"],
+      ["N7.2", "Performance, discharge, assignment, novation, breach, remedies"],
+      ["N7.3", "Listing agreements"],
+      ["N7.4", "Buyer and tenant representation agreements"],
+      ["N7.5", "Purchase agreements: offers, counteroffers, earnest money, contingencies"],
+      ["N7.6", "Options, rights of first refusal, land contracts"] ] },
+    { "id": "N8", "portion": "national", "title": "Leasing and property management", "items": 3, "course": "PRIN", "subtopics": [
+      ["N8.1", "Property manager duties and management agreements"],
+      ["N8.2", "Leasehold estates and lease types"],
+      ["N8.3", "Landlord and tenant rights, termination, eviction, fair housing in rentals"] ] },
+    { "id": "N9", "portion": "national", "title": "Transfer of title", "items": 5, "course": "LAW", "subtopics": [
+      ["N9.1", "Deeds: elements, types, delivery, recording"],
+      ["N9.2", "Title: search, abstract, chain of title, title insurance, quiet title"],
+      ["N9.3", "Closing and escrow: Closing Disclosure, closing costs, prorations"],
+      ["N9.4", "Special transfers: foreclosure, short sale, REO, adverse possession, probate, tax aspects"] ] },
+    { "id": "N10", "portion": "national", "title": "Practice of real estate", "items": 11, "course": "LAW", "subtopics": [
+      ["N10.1", "Trust and escrow funds: commingling and conversion"],
+      ["N10.2", "Fair housing laws and the ADA"],
+      ["N10.3", "Advertising and solicitation rules"],
+      ["N10.4", "Antitrust"],
+      ["N10.5", "Supervision; independent contractor vs. employee"],
+      ["N10.6", "Ethics, risk management, records, wire fraud and cybersecurity"] ] },
+    { "id": "N11", "portion": "national", "title": "Real estate calculations", "items": 4, "course": "PRIN", "subtopics": [
+      ["N11.1", "Commission, splits, seller's net"],
+      ["N11.2", "Prorations"],
+      ["N11.3", "Financing math: LTV, points, interest, amortization, qualifying ratios"],
+      ["N11.4", "Valuation and investment math: cap rate, GRM, adjustments, depreciation, ROI, equity"],
+      ["N11.5", "Area, volume, acreage, front feet"],
+      ["N11.6", "Property tax and transfer tax"] ] },
+    { "id": "S1", "portion": "state", "title": "Real Estate Division and Commission", "items": 0, "course": "LAW", "subtopics": [
+      ["S1.1", "Structure, powers, and duties of NRED and the Commission; investigations"],
+      ["S1.2", "Disciplinary procedures: complaints, hearings, fines, penalties, appeals"],
+      ["S1.3", "Education, Research and Recovery Fund"] ] },
+    { "id": "S2", "portion": "state", "title": "Licensing", "items": 0, "course": "LAW", "subtopics": [
+      ["S2.1", "Activities that require a license; exemptions; unlicensed activity"],
+      ["S2.2", "License types and permits"],
+      ["S2.3", "Requirements for an original license"],
+      ["S2.4", "Status, changing brokers, renewal, continuing and post-licensing education"] ] },
+    { "id": "S3", "portion": "state", "title": "Licensee conduct and broker supervision", "items": 0, "course": "LAW", "subtopics": [
+      ["S3.1", "Broker supervision and the broker-salesperson relationship"],
+      ["S3.2", "Trust accounts and client funds"],
+      ["S3.3", "Advertising rules"],
+      ["S3.4", "Prohibited acts, grounds for discipline, record keeping"] ] },
+    { "id": "S4", "portion": "state", "title": "Agency under Nevada law", "items": 0, "course": "AGY", "subtopics": [
+      ["S4.1", "Duties owed by a Nevada licensee; the Duties Owed form"],
+      ["S4.2", "Multiple representation (Consent to Act) and assigned agency"],
+      ["S4.3", "Nevada brokerage agreements"] ] },
+    { "id": "S5", "portion": "state", "title": "Nevada disclosures and contract practice", "items": 0, "course": "CON", "subtopics": [
+      ["S5.1", "Seller's Real Property Disclosure"],
+      ["S5.2", "Other required Nevada disclosures"],
+      ["S5.3", "Nevada purchase agreement practice and presenting offers"] ] },
+    { "id": "S6", "portion": "state", "title": "Nevada ownership and special topics", "items": 0, "course": "LAW", "subtopics": [
+      ["S6.1", "Community property and forms of ownership in Nevada"],
+      ["S6.2", "Water rights"],
+      ["S6.3", "Common-interest communities"],
+      ["S6.4", "Land sales, subdivisions, timeshares [verify on outline]"] ] },
+    { "id": "S7", "portion": "state", "title": "Property management in Nevada", "items": 0, "course": "PRIN", "subtopics": [
+      ["S7.1", "Property management permit and property management agreements"],
+      ["S7.2", "Nevada landlord-tenant and rental funds [verify on outline]"] ] }
+  ],
+  "units": [
+    { "id": "U01", "portion": "national", "title": "Property Ownership", "course": "PRIN", "topics": ["N1"], "lessons": [
+      ["Real or Personal?", ["N1.1"]], ["Describing Land", ["N1.2"]], ["Liens and Easements", ["N1.3"]],
+      ["Estates in Land", ["N1.4"]], ["Who Owns It, and How", ["N1.5"]], ["Condos, Co-ops and More", ["N1.6"]],
+      ["Ownership Mixed Drill", ["N1.3", "N1.5"]] ] },
+    { "id": "U02", "portion": "national", "title": "Land Use Controls", "course": "PRIN", "topics": ["N2"], "lessons": [
+      ["What Government Can Do", ["N2.1"]], ["Zoning and Codes", ["N2.2"]], ["Environmental Rules", ["N2.3"]], ["Private Restrictions", ["N2.4"]] ] },
+    { "id": "U03", "portion": "national", "title": "Valuation and Market Analysis", "course": "PRIN", "topics": ["N3"], "lessons": [
+      ["Why Appraise", ["N3.1"]], ["How Value Works", ["N3.2"]], ["Comparing Sales", ["N3.3"]], ["Cost Approach", ["N3.4"]],
+      ["Income Approach", ["N3.5"]], ["CMA vs. Appraisal", ["N3.6"]], ["Valuation Mixed Drill", ["N3.3", "N3.5"]] ] },
+    { "id": "U04", "portion": "national", "title": "Financing", "course": "PRIN", "topics": ["N4"], "lessons": [
+      ["Loan Basics", ["N4.1"]], ["Loan Types", ["N4.2"]], ["Notes and Clauses", ["N4.3"]], ["Getting the Loan", ["N4.4"]],
+      ["Lending Laws", ["N4.5"]], ["Financing Mixed Drill", ["N4.2", "N4.5"]] ] },
+    { "id": "U05", "portion": "national", "title": "Agency Principles", "course": "AGY", "topics": ["N5"], "lessons": [
+      ["Who You Work For", ["N5.1"]], ["Starting and Ending Agency", ["N5.2"]], ["Duties to Clients", ["N5.3"]],
+      ["Duties to Everyone Else", ["N5.4"]], ["Disclosure and Conflicts", ["N5.5"]], ["Agency Scenarios I", ["N5.1", "N5.3"]],
+      ["Agency Scenarios II", ["N5.4", "N5.5"]] ] },
+    { "id": "U06", "portion": "national", "title": "Property Condition and Disclosures", "course": "LAW", "topics": ["N6"], "lessons": [
+      ["Inspections", ["N6.1"]], ["Environmental Hazards", ["N6.2"]], ["What Must Be Disclosed", ["N6.3"]] ] },
+    { "id": "U07", "portion": "national", "title": "Contracts", "course": "CON", "topics": ["N7"], "lessons": [
+      ["What Makes a Contract", ["N7.1"]], ["Performance and Breach", ["N7.2"]], ["Listing Agreements", ["N7.3"]],
+      ["Buyer Agreements", ["N7.4"]], ["Offers and Counteroffers", ["N7.5"]], ["Options and Land Contracts", ["N7.6"]],
+      ["Contract Scenarios I", ["N7.1", "N7.5"]], ["Contract Scenarios II", ["N7.2", "N7.3"]] ] },
+    { "id": "U08", "portion": "national", "title": "Leasing and Property Management", "course": "PRIN", "topics": ["N8"], "lessons": [
+      ["The Property Manager", ["N8.1"]], ["Leases", ["N8.2"]], ["Landlord and Tenant", ["N8.3"]] ] },
+    { "id": "U09", "portion": "national", "title": "Transfer of Title", "course": "LAW", "topics": ["N9"], "lessons": [
+      ["Deeds", ["N9.1"]], ["Title and Title Insurance", ["N9.2"]], ["Closing", ["N9.3"]], ["Special Transfers", ["N9.4"]] ] },
+    { "id": "U10", "portion": "national", "title": "Practice of Real Estate", "course": "LAW", "topics": ["N10"], "lessons": [
+      ["Other People's Money", ["N10.1"]], ["Fair Housing", ["N10.2"]], ["Advertising Rules", ["N10.3"]], ["Antitrust", ["N10.4"]],
+      ["Supervision", ["N10.5"]], ["Ethics and Risk", ["N10.6"]], ["Fair Housing Scenarios", ["N10.2"]], ["Practice Mixed Drill", ["N10.1", "N10.4"]] ] },
+    { "id": "U11", "portion": "national", "title": "Math I: Commission, Prorations, Area, Taxes", "course": "PRIN", "topics": ["N11"], "lessons": [
+      ["Commission and Net", ["N11.1"]], ["Prorations", ["N11.2"]], ["Area and Acreage", ["N11.5"]], ["Taxes", ["N11.6"]] ] },
+    { "id": "U12", "portion": "national", "title": "Math II: Financing and Investment", "course": "PRIN", "topics": ["N11"], "lessons": [
+      ["Loan Math", ["N11.3"]], ["Investment Math", ["N11.4"]], ["Math Mixed Drill", ["N11.3", "N11.4"]] ] },
+    { "id": "U13", "portion": "state", "title": "NRED, the Commission and Discipline", "course": "LAW", "topics": ["S1"], "lessons": [
+      ["Who Regulates You", ["S1.1"]], ["Complaints and Discipline", ["S1.2"]], ["The Recovery Fund", ["S1.3"]] ] },
+    { "id": "U14", "portion": "state", "title": "Nevada Licensing", "course": "LAW", "topics": ["S2"], "lessons": [
+      ["Who Needs a License", ["S2.1"]], ["License Types", ["S2.2"]], ["Getting Licensed", ["S2.3"]], ["Keeping Your License", ["S2.4"]] ] },
+    { "id": "U15", "portion": "state", "title": "Conduct, Supervision and Trust Funds", "course": "LAW", "topics": ["S3"], "lessons": [
+      ["Your Broker", ["S3.1"]], ["Trust Accounts", ["S3.2"]], ["Advertising in Nevada", ["S3.3"]], ["Prohibited Acts", ["S3.4"]] ] },
+    { "id": "U16", "portion": "state", "title": "Agency in Nevada", "course": "AGY", "topics": ["S4"], "lessons": [
+      ["Duties Owed", ["S4.1"]], ["Consent to Act", ["S4.2"]], ["Nevada Brokerage Agreements", ["S4.3"]] ] },
+    { "id": "U17", "portion": "state", "title": "Nevada Disclosures and Contracts", "course": "CON", "topics": ["S5"], "lessons": [
+      ["Seller's Disclosure", ["S5.1"]], ["Other Nevada Disclosures", ["S5.2"]], ["Offers in Nevada", ["S5.3"]] ] },
+    { "id": "U18", "portion": "state", "title": "Nevada Ownership, Water and CICs", "course": "LAW", "topics": ["S6"], "lessons": [
+      ["Community Property", ["S6.1"]], ["Water Rights", ["S6.2"]], ["Common-Interest Communities", ["S6.3"]], ["Subdivisions and Timeshares", ["S6.4"]] ] },
+    { "id": "U19", "portion": "state", "title": "Nevada Property Management", "course": "PRIN", "topics": ["S7"], "lessons": [
+      ["The Permit", ["S7.1"]], ["Rentals in Nevada", ["S7.2"]] ] }
+  ]
+}

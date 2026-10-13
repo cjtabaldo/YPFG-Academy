@@ -1,0 +1,19 @@
+[
+  { "key": "eligibility_age", "category": "roadmap", "label": "Minimum age", "value": "18 or older" },
+  { "key": "eligibility_education", "category": "roadmap", "label": "Education", "value": "High school diploma or equivalent" },
+  { "key": "prelicensing_hours", "category": "roadmap", "label": "Pre-licensing education", "value": "120 hours: Real Estate Principles 45, Real Estate Law 45 (including 18 hours of Nevada law), Contracts 15, Agency 15" },
+  { "key": "nred_registration", "category": "roadmap", "label": "Exam registration", "value": "Register and pay through the NRED website first. Pearson VUE scheduling opens after NRED approves you (effective July 29, 2025)." },
+  { "key": "exam_validity_national", "category": "roadmap", "label": "National portion pass is valid for", "value": "12 months", "note": "Used for the countdown. Months." },
+  { "key": "exam_validity_state", "category": "roadmap", "label": "State portion pass is valid for", "value": "12 months", "note": "Used for the countdown. Months." },
+  { "key": "fingerprint_validity", "category": "roadmap", "label": "Fingerprints are valid for", "value": "2 months", "note": "Used for the countdown. Months." },
+  { "key": "application_form", "category": "roadmap", "label": "Salesperson license application form number", "value": null },
+  { "key": "application_fee", "category": "roadmap", "label": "Salesperson license application fee", "value": null },
+  { "key": "post_licensing", "category": "roadmap", "label": "Post-licensing education requirement", "value": null },
+  { "key": "exam_id_rules", "category": "exam_day", "label": "ID you must bring", "value": null, "note": "From the Candidate Handbook." },
+  { "key": "exam_arrival", "category": "exam_day", "label": "When to arrive", "value": null, "note": "From the Candidate Handbook." },
+  { "key": "exam_allowed_items", "category": "exam_day", "label": "What is and isn't allowed in the testing room", "value": null, "note": "From the Candidate Handbook." },
+  { "key": "exam_calculator", "category": "exam_day", "label": "Calculator rules", "value": null, "note": "From the Candidate Handbook." },
+  { "key": "exam_interface", "category": "exam_day", "label": "Exam screen features (mark for review, moving between questions)", "value": null, "note": "From the Candidate Handbook. The simulator offers mark-for-review and free navigation until this is confirmed or changed." },
+  { "key": "exam_scoring", "category": "exam_day", "label": "Passing score", "value": "75% of scored questions on each portion, scored separately" },
+  { "key": "exam_structure", "category": "exam_day", "label": "Exam structure", "value": "National: 80 scored + 5 unscored pretest, 150 minutes. State: 40 scored + 5–10 unscored pretest, 90 minutes." }
+]
